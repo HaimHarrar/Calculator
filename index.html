@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="text/css" rel="stylesheet" href="style.css" nonce="">
+    <title>Document</title>
+</head>
+<body class="body">
+    <div class="calculator">
+
+            <div class="display">
+                <div class="disAll">
+                    <div class="disEqu" id="equ">0</div>
+                </div>
+                <div class="disPart">
+                    <div class="disNums" id="res">0</div>
+                    <div class="disOpers" id="op"></div>
+                </div>
+
+            </div>
+
+            <div class="numbers">
+                <div class="num" onclick="setResult()">1</div>
+                <div class="num" onclick="setResult()">2</div>
+                <div class="num" onclick="setResult()">3</div>
+                <div class="num" onclick="setResult()">4</div>
+                <div class="num" onclick="setResult()">5</div>
+                <div class="num" onclick="setResult()">6</div>
+                <div class="num" onclick="setResult()">7</div>
+                <div class="num" onclick="setResult()">8</div>
+                <div class="num" onclick="setResult()">9</div>
+                <div class="num" onclick="setResult()">0</div>
+                <div class="num" onclick="setResult()">.</div>
+                <div class="num" onclick="setTotal()">=</div>
+
+            </div>
+
+            <div class="operands">
+                <div class="oper" onclick="setOp()">+</div>
+                <div class="oper" onclick="setOp()">-</div>
+                <div class="oper" onclick="setOp()">/</div>
+                <div class="oper" onclick="setOp()">*</div>
+
+            </div>
+            <div class="clears">
+                <div class="clr" onclick="clr()">ce</div>
+                <div class="clr"onclick="deleat()"><<<</div>
+                <div class="clr"onclick="deleatEqu()">c</div>
+            </div>
+    </div>
+    <script src="script.js">
+      </script>
+</body>
+</html>
